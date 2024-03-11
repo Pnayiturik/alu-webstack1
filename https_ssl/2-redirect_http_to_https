@@ -15,4 +15,4 @@ backend web-backend
     server 6052-web-01 3.85.201.246:80 check
     server 6052-web-02 54.85.130.159:80 check
 backend letsencrypt-backend
-   server letsencrypt 127.0.0.1:54321
+   server letsencrypt 127.0.0.53:54321
