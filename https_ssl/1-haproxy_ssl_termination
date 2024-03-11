@@ -12,7 +12,7 @@ frontend www-https
 backend web-backend
     redirect scheme https unless { ssl_fc }
     balance roundrobin
-    server 6052-web-01 3.85.201.246:80 check
-    server 6052-web-02 54.85.130.159:80 check
+    server 6052-web-01 3.82.57.28:80 check
+    server 6052-web-02 54.226.224.84:80 check
 backend letsencrypt-backend
    server letsencrypt 127.0.0.53:54321
